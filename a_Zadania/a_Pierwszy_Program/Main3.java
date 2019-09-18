@@ -7,6 +7,8 @@ public class Main3 {
 		/*
 		komentarz blokowy
 		 */
+
+		/** komentarz dokumentujący **/
 	}
 
 }
