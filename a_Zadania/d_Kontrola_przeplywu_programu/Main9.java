@@ -7,11 +7,12 @@ public class Main9 {
 
                 String line = "";
 
-                for (int k = 1; k < j ; k++) {
-                    line += "* ";
-                }
-                for (int k = j; k <= n; k++) {
-                    line += k + " ";
+                for (int i = 1; i <= n ; i++) {
+                    if (i <= j){
+                        line += "* ";
+                    } else {
+                        line += i + " ";
+                    }
                 }
 
                 line += "\n";
